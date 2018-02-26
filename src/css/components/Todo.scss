@@ -1,0 +1,10 @@
+.list-group-item {
+  &.disabled {
+    text-decoration: line-through !important;
+    font-style: italic !important;
+  }
+  
+  &:active, &:focus {
+    outline: 0 !important;
+  }
+}
